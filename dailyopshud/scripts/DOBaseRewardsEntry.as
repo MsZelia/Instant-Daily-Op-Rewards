@@ -110,12 +110,12 @@ package
       internal function frame1() : *
       {
          stop();
-         stage.dispatchEvent(new Event("DailyOps::ShowNextReward"));
       }
       
       internal function frame2() : *
       {
          stage.dispatchEvent(new Event("DailyOps::PlayBaseRewardFadeSound"));
+         stage.dispatchEvent(new Event("DailyOps::ShowNextReward"));
       }
       
       internal function frame11() : *

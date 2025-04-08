@@ -15,11 +15,11 @@ package
       
       private static const REWARDS_Y_OFFSET:Number = 2;
       
-      private static const DAILY_UNLOCKS_WAIT_TIME_MS:Number = 100;
+      private static const DAILY_UNLOCKS_WAIT_TIME_MS:Number = 25;
       
-      private static const DOUBLE_MUTATION_REWARDS_WAIT_TIME_MS:Number = 100;
+      private static const DOUBLE_MUTATION_REWARDS_WAIT_TIME_MS:Number = 25;
       
-      private static const DAILY_UNLOCKS_WAIT_TIME_EXTENDED_MS:Number = 150;
+      private static const DAILY_UNLOCKS_WAIT_TIME_EXTENDED_MS:Number = 35;
       
       private static const EVENT_PLAY_BASE_REWARD_FADE_SOUND:String = "DailyOps::PlayBaseRewardFadeSound";
       

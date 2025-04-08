@@ -23,7 +23,7 @@ package DailyOpsHUD_fla
       public function MissionRankingGraphic_mc_37()
       {
          super();
-         addFrameScript(0,this.frame1,65,this.frame66);
+         addFrameScript(0,this.frame1,2,this.frame3);
       }
       
       internal function frame1() : *
@@ -31,9 +31,9 @@ package DailyOpsHUD_fla
          stop();
       }
       
-      internal function frame66() : *
+      internal function frame3() : *
       {
-         stop();
+         gotoAndStop("on");
          stage.dispatchEvent(new Event("DailyOps::ActivateRanks"));
       }
    }

@@ -21,12 +21,12 @@ package DailyOpsHUD_fla
       public function MissionRewardsGraphic_mc_18()
       {
          super();
-         addFrameScript(40,this.frame41);
+         addFrameScript(0,this.frame1);
       }
       
-      internal function frame41() : *
+      internal function frame1() : *
       {
-         stop();
+         gotoAndStop(40);
          stage.dispatchEvent(new Event("DailyOps::ShowNextReward"));
       }
    }

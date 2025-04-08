@@ -15,7 +15,7 @@ package DailyOpsHUD_fla
       public function RewardDoubleMutationAnim_60()
       {
          super();
-         addFrameScript(0,this.frame1,23,this.frame24,35,this.frame36);
+         addFrameScript(0,this.frame1,1,this.frame2,35,this.frame36);
       }
       
       internal function frame1() : *
@@ -23,7 +23,7 @@ package DailyOpsHUD_fla
          stop();
       }
       
-      internal function frame24() : *
+      internal function frame2() : *
       {
          dispatchEvent(new Event("DailyOps::ShowDoubleMutationReward"));
       }

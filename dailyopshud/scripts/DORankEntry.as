@@ -10,9 +10,9 @@ package
    public class DORankEntry extends MovieClip
    {
       
-      private static const INIT_ACTIVATE_WAIT_TIME:Number = 250;
+      private static const INIT_ACTIVATE_WAIT_TIME:Number = 25;
       
-      private static const NEXT_ACTIVATE_WAIT_TIME:Number = 50;
+      private static const NEXT_ACTIVATE_WAIT_TIME:Number = 25;
       
       private static const RANK_INITIATE:uint = 0;
       
@@ -42,7 +42,7 @@ package
       public function DORankEntry()
       {
          super();
-         addFrameScript(0,this.frame1,100,this.frame151,101,this.frame152);
+         addFrameScript(0,this.frame1,31,this.frame32,150,this.frame151,151,this.frame152);
          this.m_ActivationTimer = new Timer(INIT_ACTIVATE_WAIT_TIME);
          this.m_ActivationTimer.stop();
          TextFieldEx.setTextAutoSize(this.RankAchievedText_mc.RankAchievedText_tf,TextFieldEx.TEXTAUTOSZ_SHRINK);
@@ -104,6 +104,11 @@ package
       internal function frame1() : *
       {
          stop();
+      }
+      
+      internal function frame32() : *
+      {
+         gotoAndPlay(149);
       }
       
       internal function frame151() : *

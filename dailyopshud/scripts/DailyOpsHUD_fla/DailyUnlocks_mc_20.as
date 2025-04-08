@@ -21,7 +21,7 @@ package DailyOpsHUD_fla
       public function DailyUnlocks_mc_20()
       {
          super();
-         addFrameScript(0,this.frame1,1,this.frame2,21,this.frame22,41,this.frame42,61,this.frame62);
+         addFrameScript(0,this.frame1,1,this.frame2,2,this.frame3,3,this.frame4,4,this.frame5,61,this.frame62);
       }
       
       internal function frame1() : *
@@ -35,17 +35,22 @@ package DailyOpsHUD_fla
          stage.dispatchEvent(new CustomEvent("DailyOps::UnlockDailyUnlock",{"index":0}));
       }
       
-      internal function frame22() : *
+      internal function frame3() : *
       {
          stage.dispatchEvent(new Event("DailyOps::PlayDailyUnlockFadeSound"));
          stage.dispatchEvent(new CustomEvent("DailyOps::UnlockDailyUnlock",{"index":1}));
       }
       
-      internal function frame42() : *
+      internal function frame4() : *
       {
          stage.dispatchEvent(new Event("DailyOps::PlayDailyUnlockFadeSound"));
          stage.dispatchEvent(new CustomEvent("DailyOps::UnlockDailyUnlock",{"index":2}));
+      }
+      
+      internal function frame5() : *
+      {
          stage.dispatchEvent(new Event("DailyOps::FinalDailyUnlockShown"));
+         gotoAndStop(61);
       }
       
       internal function frame62() : *
