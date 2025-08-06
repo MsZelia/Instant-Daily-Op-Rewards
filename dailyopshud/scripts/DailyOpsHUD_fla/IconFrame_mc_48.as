@@ -5,7 +5,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol140")]
    public dynamic class IconFrame_mc_48 extends MovieClip
    {
-       
       
       public function IconFrame_mc_48()
       {
@@ -29,3 +28,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

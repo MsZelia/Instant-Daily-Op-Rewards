@@ -5,7 +5,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol46")]
    public dynamic class RankIcon_mc_9 extends MovieClip
    {
-       
       
       public function RankIcon_mc_9()
       {
@@ -29,3 +28,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

@@ -6,7 +6,6 @@ package
       public static const MUTATION_MODE_SINGLE:uint = 0;
       
       public static const MUTATION_MODE_DOUBLE:uint = 1;
-       
       
       public function DOShared()
       {
@@ -24,3 +23,4 @@ package
       }
    }
 }
+

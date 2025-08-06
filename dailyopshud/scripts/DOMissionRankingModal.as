@@ -12,7 +12,6 @@ package
       private static const EVENT_PLAY_UNLOCK_SOUND:String = "DailyOps::PlayUnlockSound";
       
       private static const EVENT_ACTIVATE_RANKS:String = "DailyOps::ActivateRanks";
-       
       
       public var MissionRankingGraphic_mc:MovieClip;
       
@@ -151,3 +150,4 @@ package
       }
    }
 }
+

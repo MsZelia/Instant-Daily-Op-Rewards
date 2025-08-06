@@ -5,7 +5,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol144")]
    public dynamic class DOHUDNotification_mc_44 extends MovieClip
    {
-       
       
       public var DOHUDNotificationGraphic_mc:MovieClip;
       
@@ -31,3 +30,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

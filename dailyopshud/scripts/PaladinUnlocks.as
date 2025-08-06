@@ -5,7 +5,6 @@ package
    [Embed(source="/_assets/assets.swf", symbol="symbol96")]
    public dynamic class PaladinUnlocks extends DODailyUnlocksEntry
    {
-       
       
       public function PaladinUnlocks()
       {
@@ -41,3 +40,4 @@ package
       }
    }
 }
+

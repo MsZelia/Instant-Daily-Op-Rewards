@@ -5,7 +5,6 @@ package
    [Embed(source="/_assets/assets.swf", symbol="symbol110")]
    public dynamic class ElderUnlocks extends DODailyUnlocksEntry
    {
-       
       
       public function ElderUnlocks()
       {
@@ -41,3 +40,4 @@ package
       }
    }
 }
+

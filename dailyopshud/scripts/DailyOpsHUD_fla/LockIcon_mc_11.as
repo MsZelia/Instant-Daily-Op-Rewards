@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol55")]
    public dynamic class LockIcon_mc_11 extends MovieClip
    {
-       
       
       public function LockIcon_mc_11()
       {
@@ -35,3 +34,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

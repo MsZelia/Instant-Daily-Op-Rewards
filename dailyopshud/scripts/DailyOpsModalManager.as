@@ -20,7 +20,6 @@ package
       private static const REWARDS_MODAL:uint = 1;
       
       private static const TALLY_MODAL:uint = 2;
-       
       
       public var MissionRanking_mc:DOMissionRankingModal;
       
@@ -136,3 +135,4 @@ package
       }
    }
 }
+

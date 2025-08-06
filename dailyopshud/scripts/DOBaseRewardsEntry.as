@@ -11,7 +11,6 @@ package
       public static const EVENT_SHOW_DOUBLE_MUTATION_REWARD:String = "DailyOps::ShowDoubleMutationReward";
       
       private static const STAR_STRING:* = "¬";
-       
       
       public var BaseRewardsListEntry_Internal_mc:MovieClip;
       
@@ -124,3 +123,4 @@ package
       }
    }
 }
+

@@ -19,7 +19,6 @@ package
       private static const RANK_PALADIN:uint = 1;
       
       private static const RANK_ELDER:uint = 2;
-       
       
       public var RankAchievedText_mc:MovieClip;
       
@@ -122,3 +121,4 @@ package
       }
    }
 }
+

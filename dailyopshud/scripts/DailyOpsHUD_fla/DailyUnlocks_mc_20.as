@@ -8,7 +8,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol116")]
    public dynamic class DailyUnlocks_mc_20 extends MovieClip
    {
-       
       
       public var ElderUnlocks_mc:ElderUnlocks;
       
@@ -59,3 +58,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

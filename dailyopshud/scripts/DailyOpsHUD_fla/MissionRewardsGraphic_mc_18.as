@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol122")]
    public dynamic class MissionRewardsGraphic_mc_18 extends MovieClip
    {
-       
       
       public var DOLogo_mc:MovieClip;
       
@@ -31,3 +30,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

@@ -5,7 +5,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol129")]
    public dynamic class MissionTally_mc_2 extends MovieClip
    {
-       
       
       public var MissionTallyGraphic_mc:MovieClip;
       
@@ -31,3 +30,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

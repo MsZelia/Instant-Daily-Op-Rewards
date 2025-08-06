@@ -5,7 +5,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol147")]
    public dynamic class TeamAccolade_mc_51 extends MovieClip
    {
-       
       
       public function TeamAccolade_mc_51()
       {
@@ -29,3 +28,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

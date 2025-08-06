@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol39")]
    public dynamic class RankTitle_mc_8 extends MovieClip
    {
-       
       
       public var RankTitle_tf:TextField;
       
@@ -32,3 +31,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

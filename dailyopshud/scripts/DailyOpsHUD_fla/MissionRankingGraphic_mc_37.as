@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol62")]
    public dynamic class MissionRankingGraphic_mc_37 extends MovieClip
    {
-       
       
       public var CompletionTime_mc:MovieClip;
       
@@ -38,3 +37,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

@@ -6,7 +6,6 @@ package
    
    public class DODailyUnlocksEntry extends MovieClip
    {
-       
       
       public var BackgroundAnim_mc:MovieClip;
       
@@ -60,3 +59,4 @@ package
       }
    }
 }
+

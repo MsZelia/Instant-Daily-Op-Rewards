@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol73")]
    public dynamic class DailyUnlocksLockIcon_24 extends MovieClip
    {
-       
       
       public function DailyUnlocksLockIcon_24()
       {
@@ -30,3 +29,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+

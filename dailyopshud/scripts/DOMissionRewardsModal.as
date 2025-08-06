@@ -34,7 +34,6 @@ package
       private static const EVENT_FINAL_DAILY_UNLOCK_SHOWN:String = "DailyOps::FinalDailyUnlockShown";
       
       private static const EVENT_UNLOCK_DAILY_UNLOCK:String = "DailyOps::UnlockDailyUnlock";
-       
       
       public var MissionRewardsGraphic_mc:MovieClip;
       
@@ -186,7 +185,8 @@ package
          var _loc6_:DOBaseRewardsEntry = null;
          if(param1 && param2 && param3 && param3.length > 0 && param4 > 0)
          {
-            if((_loc6_ = new DOBaseRewardsEntry()) != null)
+            _loc6_ = new DOBaseRewardsEntry();
+            if(_loc6_ != null)
             {
                param1.addChild(_loc6_);
                param2.push(_loc6_);
@@ -441,3 +441,4 @@ package
       }
    }
 }
+

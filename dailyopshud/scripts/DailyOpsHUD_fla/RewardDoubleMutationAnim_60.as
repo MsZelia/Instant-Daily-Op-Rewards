@@ -6,7 +6,6 @@ package DailyOpsHUD_fla
    [Embed(source="/_assets/assets.swf", symbol="symbol9")]
    public dynamic class RewardDoubleMutationAnim_60 extends MovieClip
    {
-       
       
       public var RewardMultiplierBacker_mc:MovieClip;
       
@@ -34,3 +33,4 @@ package DailyOpsHUD_fla
       }
    }
 }
+
